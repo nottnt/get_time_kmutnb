@@ -1,5 +1,5 @@
 const Nightmare = require('nightmare')
-const nightmare = Nightmare({ show: false })
+const nightmare = Nightmare({ show: true })
 var express = require('express')
 var app = express()
 var port = process.env.PORT || 5000;
